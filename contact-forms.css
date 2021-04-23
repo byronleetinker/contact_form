@@ -1,0 +1,45 @@
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://picsum.photos/1200);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+label {
+  display: none;
+}
+
+#form {
+  justify-content: center;
+  padding: 10vh;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  margin-bottom: 10%;
+}
+
+.contact_input {
+  margin-bottom: 10%;
+}
+
+.contact_button {
+  min-width: 100%;
+}
